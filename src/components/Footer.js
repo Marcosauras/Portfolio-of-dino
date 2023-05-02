@@ -3,10 +3,10 @@ import React from "react";
 function Footer() {
   return (
     <div className="">
-        <footer class="bg-gradient-to-r from-sky-500 to-indigo-500">
-        <h2 class="big-words" id="contact-me">Ways to Contact Me:</h2>
+        <footer className="bg-gradient-to-r from-sky-500 to-indigo-500">
+        <h2 className="big-words" id="contact-me">Ways to Contact Me:</h2>
 
-        <div class="contact-me">
+        <div className="contact-me">
             <ul>
                 <li><a href="https://www.linkedin.com/feed/">LinkedIn </a></li>
                 <li><a href="https://github.com/Marcosauras">Github</a></li>
