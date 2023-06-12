@@ -16,12 +16,12 @@ import "swiper/css/pagination";
 
 function MyProjects() {
   return (
-    <div className="bg-peach card text-center ">
+    <div className="flex flex-col h-screen text-center ">
           <h2 className="big-words text-4xl p-4" id="My-Projects">
             My Projects
           </h2>
 
-          <div className="work-links p-3 m-4 grid gap-4 place-items-center grid-cols-1 xl:grid-cols-2">
+          <div className="work-links p-3 m-4 flex-grow grid gap-4 place-items-center grid-cols-1 xl:grid-cols-2">
 
             {/* Adopt don't shop */}
             <figure className="grid p-3 rounded bg-night bg-opacity-50 sm:grid-cols-2">

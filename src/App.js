@@ -10,11 +10,11 @@ import Header from "./components/Header";
 
 function App() {
   return (
-    <div className="flex flex-col min-h-screen bg-black text-white">
+    <div className="flex flex-col min-h-screen bg-peach text-white">
 
       <Header />
 
-      <div className="flex-1">
+      <div className="flex-1 ">
         <Router>
           <Routes>
             <Route path="/" element={<AboutMe />} />

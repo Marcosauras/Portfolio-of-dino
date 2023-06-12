@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <div className="card text-center">
-        <header className="grid bg-night">
+        <header className="grid bg-Gradient">
             <h1 className="header-text grid justify-items-center justify-center m-3 text-4xl"> Marc Hamilton </h1>
             <nav className="">
                 <ul className="header-nav grid justify-center sm:grid-cols-3 m-4">
