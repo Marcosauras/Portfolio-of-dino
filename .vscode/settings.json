@@ -1,0 +1,16 @@
+{
+    "cSpell.words": [
+        "noreferrer",
+        "swiper",
+        "tailwindcss",
+        "TTFB"
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:marcs-react-portfolio}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
+}
