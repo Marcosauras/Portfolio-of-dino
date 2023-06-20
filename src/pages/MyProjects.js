@@ -1,8 +1,12 @@
 import React from "react";
 import Footer from "../components/Footer";
-
+// photos for adopt-don't-shop
 import AdoptAnimalsImg from "../assets/group-pets-dog-cat-bird-reptile-rabbit-isolated-whi_191971-5486.webp";
+import dog from "../assets/Screenshot of dog for adoption.png"
+import cat from "../assets/cat-for-adoption.png"
+// photos for LumoGrindz
 import lights from "../assets/Christmas-lights.png";
+import bee from "../assets/LumoGrindz_logo.png";
 // import corgiButt from "../assets/corgi_butt.png";
 
 
@@ -54,20 +58,29 @@ function MyProjects() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src="https://swiperjs.com/demos/images/nature-3.jpg"
-                      alt="temp"
+                      src={dog}
+                      alt="brown dog for adoption"
+                    />
+                  </SwiperSlide>
+                  <SwiperSlide>
+                    <img
+                      src={cat}
+                      alt="black cat for adoption"
                     />
                   </SwiperSlide>
                 </Swiper>
               </a>
-              <figcaption className="text-center m-4">
-                <a href="https://marcosauras.github.io/Adopt-Dont-Shop/" rel="noreferrer" target="_blank">
+              <figcaption className="text-center m-4 ">
+                <a href="https://marcosauras.github.io/Adopt-Dont-Shop/" rel="noreferrer" target="_blank" className="font-bold hover:text-night">
                   Adopt don't shop
-                  <p className="m-2 block">
+                  </a>
+                  <p className="m-2 block ">
                     Find animals (dogs, cats, rabbits and birds) up for adoption
                     near you based off your zip code,
                   </p>
-                </a>
+                  <p>Click here to see how my team and I created this website</p>
+                <a href="https://github.com/Marcosauras/Adopt-Dont-Shop?organization=Marcosauras&organization=Marcosauras" rel="noreferrer" target="_blank" className="font-bold hover:text-night"> Adopt Don't Shop Github </a>
+
               </figcaption>
             </figure>
             {/* LumoGrindz */}
@@ -101,20 +114,25 @@ function MyProjects() {
                   </SwiperSlide>
                   <SwiperSlide>
                     <img
-                      src="https://swiperjs.com/demos/images/nature-4.jpg"
-                      alt="temp"
+                      src={bee}
+                      alt="yellow bee logo"
                     />
                   </SwiperSlide>
                 </Swiper>
               </a>
               <figcaption className="text-center m-4">
-                <a href="https://lumogrindz.herokuapp.com/" rel="noreferrer" target="_blank"> LumoGrindz </a>
+                <a href="https://lumogrindz.herokuapp.com/" rel="noreferrer" target="_blank" className="font-bold hover:text-night"> LumoGrindz </a>
                 <p className="m-2 block">
                   LumaGrindz is a website for workers to share information about
                   their jobs, so other workers can better understand the tasks
                   they will be handling.
                 </p>
+                <p>Click here to see how my team and I created this website</p>
+                <a href="https://github.com/Marcosauras/LumoGrindz?organization=Marcosauras&organization=Marcosauras" rel="noreferrer" target="_blank" className="font-bold hover:text-night"> LumoGrindz Github </a>
+
               </figcaption>
+
+
             </figure>
           </div>
           
