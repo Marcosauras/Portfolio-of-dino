@@ -40,7 +40,7 @@ export const ContactMe = () => {
           <label>Message</label>
           <textarea className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray focus:ring-night-500 focus:border-night-500  dark:text-white dark:focus:ring-night-500 dark:focus:border-night-500" placeholder="more details on what you would like for me to do" name="message" />
 
-          <button className="py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-navy-700 sm:w-fit hover:bg-night-800 focus:ring-4 focus:outline-none focus:ring-night dark:bg-night-600 dark:hover:bg-night-700 dark:focus:ring-night-800 hover:bg-gradient hover:text-navy" type="submit" value="Send"> Submit </button>
+          <button className="m-3 py-3 px-5 text-sm font-medium text-center text-white rounded-lg bg-navy-700 hover:bg-night-800 focus:ring-4 focus:outline-none focus:ring-night dark:bg-night-600 dark:hover:bg-night-700 dark:focus:ring-night-800 hover:bg-gradient hover:text-navy" type="submit" value="Send"> Submit </button>
         </form>
       </div>
     </section>
