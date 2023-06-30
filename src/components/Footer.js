@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="sticky-0">
+    <div className="sticky-0 bg-peach">
         <footer className="bg-gradient-to-r from-night to-navy">
         <h2 className="big-words" id="contact-me">Ways to Contact Me:</h2>
 
