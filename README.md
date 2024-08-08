@@ -13,12 +13,7 @@
 - [Coding Badges](#coding-badges)
 - [Link to Application](#link-to-application)
 - [Description](#description)
-- [Local Installation](#installation)
-- [Demo Video](#application-demo-video)
-- [User Story](#user-story)
-- [Acceptance Criteria](#acceptance-criteria)
 - [License](#license)
-- [How to Contribute](#how-to-contribute)
 
 ---
 ### [Link to Application](https://marcs-portfolio-476c5faa6781.herokuapp.com/)
