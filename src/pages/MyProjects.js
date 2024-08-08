@@ -20,7 +20,7 @@ import "swiper/css/pagination";
 
 function MyProjects() {
   return (
-    <div className="flex flex-col h-screen text-center ">
+    <div className="flex flex-col h-screen text-center bg-gradient-to-b from-Dark_Blue to-Baby_Blue">
           <h2 className="big-words text-4xl p-4" id="My-Projects">
             My Projects
           </h2>
@@ -28,7 +28,7 @@ function MyProjects() {
           <div className="work-links p-3 m-4 flex-grow grid gap-4 place-items-center grid-cols-1 xl:grid-cols-2">
 
             {/* Adopt don't shop */}
-            <figure className="grid p-3 rounded bg-night bg-opacity-50 sm:grid-cols-2">
+            <figure className="grid p-3 rounded bg-Navy_Blue bg-opacity-50 sm:grid-cols-2">
               <a href="https://marcosauras.github.io/Adopt-Dont-Shop/" rel="noreferrer" target="_blank">
                 <Swiper
                   effect={"cube"}
@@ -84,7 +84,7 @@ function MyProjects() {
               </figcaption>
             </figure>
             {/* LumoGrindz */}
-            <figure className="grid p-3 rounded bg-night bg-opacity-50 sm:grid-cols-2 w-92">
+            <figure className="grid p-3 rounded bg-Navy_Blue bg-opacity-50 sm:grid-cols-2 w-92">
               <a href="https://lumogrindz.herokuapp.com/" rel="noreferrer" target="_blank">
                 <Swiper
                   effect={"cube"}
