@@ -4,10 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        "navy": "#090580",
-        "night": "#46458C",
-        "peach":"#E8A9A9",
-        "gradient": "#F4D3D3" 
+        "Dark_Blue": "#050a30",
+        "Navy_Blue": "#000c66",
+        "Blue":"#0000ff",
+        "Baby_Blue": "#7ec8e3" 
       }
     }
   },
