@@ -27,7 +27,7 @@
 # Description
 Here is my portfolio website, it has a show case of projects I am proud of and a little about me, I hope to continue updating it to show case everything I have completed.
 
-![Portfolio showcase](src/assets/portfolio.gif)
+![Portfolio showcase](src/assets/Marc's_Portfolio.png)
 
 
 [Back to Top](#table-of-contents)
